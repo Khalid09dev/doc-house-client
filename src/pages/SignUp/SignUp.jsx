@@ -25,7 +25,7 @@ const SignUp = () => {
                     <label className='text-base font-semibold text-[#0A0808]'>Password</label> <br />
                     <input className='bg-[#F3F3F3] py-3 pl-3 w-full placeholder:text-[15px] rounded-lg mb-4' type="password" name="password" id="" placeholder="Enter your password"/> <br />
                     <input className='bg-[#F7A582] py-3 rounded-lg text-base text-white font-semibold w-full mb-5 cursor-pointer' type="submit" value="Create Account" />
-                <p className='text-base font-normal text-[#6C6B6B] text-center'>Already Registered? Go to <Link className='text-[#F7A582] font-semibold' to="/login">SIGN IN</Link></p>
+                <p className='text-base font-normal text-[#6C6B6B] text-center'>Already Registered? Go to <Link className='text-[#F7A582] font-semibold' to="/signin">SIGN IN</Link></p>
                 </form>
             </div>
         </div>

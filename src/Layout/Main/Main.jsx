@@ -4,7 +4,7 @@ import Footer from '../../Components/Footer/Footer';
 
 const Main = () => {
     const location = useLocation();
-    const hideNavbarFooter = location.pathname === '/signup' || location.pathname === '/login';
+    const hideNavbarFooter = location.pathname === '/signup' || location.pathname === '/signin';
 
     return (
         <div>
