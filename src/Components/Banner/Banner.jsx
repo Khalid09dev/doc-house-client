@@ -2,14 +2,16 @@
 const Banner = () => {
     return (
         <div id="banner" className="bg-[#07332F]">
-            <div className="flex justify-center items-center gap-60">
-            <div className="pb-40">
-                <h1 className="text-[55px] leading-[65px] text-[#F3F3F3] font-semibold">Your Best Medical <br /> Help Center</h1>
-                <p className="text-[18px] font-semibold pt-4 pb-5">Lorem Ipsum is simply dummy text they are printing typesetting <br /> has been the industry’s stardard.</p>
+            <div className="md:flex justify-center items-center gap-60">
+            <div className="pb-40 md:pt-0 pt-7">
+                <h1 className="md:text-[55px] text-[30px] md:text-left text-center md:leading-[65px] text-[#F3F3F3] font-semibold">Your Best Medical <br /> Help Center</h1>
+                <p className="text-[18px] font-semibold pt-4 pb-5 md:text-left text-center">Lorem Ipsum is simply dummy text they are printing typesetting <br /> has been the industry’s stardard.</p>
+                <div className="flex md:justify-start justify-center">
                 <button className="text-white text-base font-medium bg-[#F7A582] py-3 px-6 rounded-lg">All Service</button>
+                </div>
             </div>
 
-            <div className="mr-20">
+            <div className="mr-20 md:w-auto w-1/2">
                 <img className="absolute top-[435px] right-[510px]" src="https://i.postimg.cc/GhC9ks5k/banner-img-4.png" alt="#" />
                 <img className="relative top-44 right-36 banner-bg" src="https://i.postimg.cc/NfnBJk2Z/doc-1.png" alt="#" />
                 <img className="sticky" src="https://i.postimg.cc/Px7SsJbf/doc-2.png" alt="#" />
