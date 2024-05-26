@@ -17,7 +17,7 @@ const Navbar = () => {
     }
 
     return (
-        <div id='navbar' className="navbar md:flex md:justify-around bg-[#07332F]">
+        <div id='navbar' className="navbar md:flex md:justify-around pt-5 bg-[#07332F]">
             <div className="navbar-start flex justify-between items-center w-full md:w-auto ">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -38,7 +38,7 @@ const Navbar = () => {
                     <NavLink><a>About</a></NavLink>
                     <NavLink><a>Appointment</a></NavLink>
                     <NavLink><a>Login</a></NavLink>
-                    <button onClick={() => handleTheme()}><a>theme</a></button>
+                    <input onClick={() => handleTheme()} type="checkbox" className="toggle bg-[#07332F]" />
                 </ul>
             </div>
         </div>
