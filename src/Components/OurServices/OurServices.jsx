@@ -3,10 +3,10 @@ import { useState } from "react";
 const OurServices = () => {
     const [activeTab, setActiveTab] = useState(1);
     return (
-        <div className="md:flex justify-center gap-6 md:py-32 py-6 bg-[#FFF]">
+        <div id="our-services" className="md:flex justify-center gap-6 md:py-32 py-6 bg-[#FFF]">
             <img className="px-3" src="https://i.postimg.cc/J7BWrpxx/our-services-1.png" alt="#" />
             <div>
-                <h2 className="text-[#0A0808] text-[40px] font-bold md:text-left text-center">Our Services</h2>
+                <h2 id="our-services-heading" className="text-[#0A0808] text-[40px] font-bold md:text-left text-center">Our Services</h2>
                 <p className="text-[#3B3A3A] text-base md:block hidden md:text-left font-normal">Sed ut perspiciatis unde omnis iste natus error sit voluptatem <br /> accusantium doloremque laudantium, totam rem aperiam, <br /> eaque ipsa quae ab illo inve ntore veritatis et quasi <br /> architecto beatae vitae dicta sunt explicabo.</p>
                 <p className="text-[#3B3A3A] text-base text-center md:hidden font-normal">Sed ut perspiciatis unde omnis iste natus error sit voluptatem  accusantium doloremque laudantium, totam rem aperiam,  eaque ipsa quae ab illo inve ntore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
 

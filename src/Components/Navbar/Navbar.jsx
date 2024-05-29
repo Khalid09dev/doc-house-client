@@ -9,10 +9,17 @@ const Navbar = () => {
         if(theme) {
             document.getElementById('navbar').classList.remove('bg-[#07332F]');
             document.getElementById('banner').classList.remove('bg-[#07332F]');
+            //our services
+            document.getElementById('our-services').classList.remove('bg-[#FFF]');
+            document.getElementById('our-services-heading').classList.add('text-[#FFF]');
+            //our services
         }
         else {
             document.getElementById('navbar').classList.add('bg-[#07332F]');
             document.getElementById('banner').classList.add('bg-[#07332F]');
+            //our services
+            document.getElementById('our-services').classList.remove('bg-[#FFF]');
+            //our services
         }
     }
 
