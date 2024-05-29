@@ -4,7 +4,7 @@ import { VscCallOutgoing } from "react-icons/vsc";
 
 const ConnectUs = () => {
     return (
-        <div className="md:flex flex-col px-10 pt-3 justify-center gap-6 bg-white pb-28">
+        <div className="md:flex grid grid-cols-1 px-3 pt-3 justify-center gap-6 bg-white pb-28">
             <div className="flex justify-center rounded-lg gap-3 py-12 pl-12 pr-7 md:mb-0 mb-5 bg-[#07332F]">
                 <CiClock2 className="w-[50px] h-[50px] text-white"/>
                 <div>
