@@ -19,8 +19,8 @@ const PaytientReview = () => {
 
             {/* swipper */}
             <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
-                <SwiperSlide className='flex'>
-                    <div className='flex justify-center gap-6'>
+                <SwiperSlide>
+                    <div className='md:flex md:btn-block hidden justify-center gap-6'>
                     <div className='border rounded-lg p-12'>
                         <div className='flex items-center gap-48'>
                             <div className='flex items-center gap-5'>
@@ -47,9 +47,32 @@ const PaytientReview = () => {
                     </div>
 
                     </div>
+
+                    
+                    <div className='border md:hidden block rounded-lg p-12'>
+                        <div className='flex items-center gap-48'>
+                            <div className='flex items-center gap-5'>
+                                <img src="https://i.postimg.cc/26xQ8Vw5/farhana.png" alt="" />
+                                <span><h4 className='text-xl font-bold text-[#3B3A3A]'>Farhana Hossain</h4>
+                                <p className='text-[#6C6B6B] text-base font-normal'>Brand Designer</p></span>
+                            </div>
+                            <img src="https://i.postimg.cc/7PV9qQsN/quote.png" alt="#" />
+                        </div>
+                        <p className='text-[#6C6B6B] pt-5 text-[18px] font-normal'>Lorem Ipsum has been the industry’s standard dummy text  ever since the 1500s, when an unknow printer tool a galley of  type and scrambled it to make type specimen book has survived not only five centurines.</p>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="https://i.postimg.cc/26xQ8Vw5/farhana.png" alt="#" />
+                <div className='border md:hidden block rounded-lg p-12'>
+                        <div className='flex items-center gap-48'>
+                            <div className='flex items-center gap-5'>
+                                <img src="https://i.postimg.cc/MK6sR8M4/awlad.png" alt="" />
+                                <span><h4 className='text-xl font-bold text-[#3B3A3A]'>Awlad Hossain</h4>
+                                <p className='text-[#6C6B6B] text-base font-normal'>Product Designer</p></span>
+                            </div>
+                            <img src="https://i.postimg.cc/7PV9qQsN/quote.png" alt="#" />
+                        </div>
+                        <p className='text-[#6C6B6B] pt-5 text-[18px] font-normal'>Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknow printer tool a galley of  type and scrambled it to make type specimen book has survived not only five centurines.</p>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide>Slide 3</SwiperSlide>
             </Swiper>
