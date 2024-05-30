@@ -27,7 +27,7 @@ const Navbar = () => {
                         <NavLink><a>Home</a></NavLink>
                         <NavLink><a>About</a></NavLink>
                         <NavLink><a>Appointment</a></NavLink>
-                        <NavLink><a>Login</a></NavLink>
+                        <NavLink to="/signin"><a>Login</a></NavLink>
                     </ul>
                 </div>
                 <Link to="/" className='flex items-center text-[25px] font-bold gap-1'><img className="h-[35px] w-[35px]" src="https://i.postimg.cc/rF9CzMLL/logo.png" alt="#" /><span className='text-[#F7A582]'>Doc</span><span className='text-[#FFF]'>House</span></Link>
@@ -37,7 +37,7 @@ const Navbar = () => {
                     <NavLink><a>Home</a></NavLink>
                     <NavLink><a>About</a></NavLink>
                     <NavLink><a>Appointment</a></NavLink>
-                    <NavLink><a>Login</a></NavLink>
+                    <NavLink to="/signin"><a>Login</a></NavLink>
                     <input onClick={() => handleTheme()} type="checkbox" className="toggle bg-[#07332F]" />
                 </ul>
             </div>
