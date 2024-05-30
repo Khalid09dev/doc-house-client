@@ -2,7 +2,7 @@
 const Footer = () => {
     return (
         <div className="bg-[#F3F3F3]">
-            <div className="flex justify-center gap-14 pt-28 pb-12">
+            <div className="md:flex justify-center grid gap-14 pt-28 pb-12">
             <div>
                 <div className="flex items-center gap-3"><img className="w-[50px] h-[50px]" src="https://i.postimg.cc/5NXJfXs1/footer-logo.png" alt="#" />
                 <h2 className="text-[30px] text-[#07332F] font-bold"><span className="text-[#F7A582]">Doc</span> House</h2></div>
