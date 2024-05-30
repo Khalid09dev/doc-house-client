@@ -9,8 +9,8 @@ const DoctorProfile = () => {
     return (
         <div className="bg-[#F3F3F3] pt-28">
             <div className="md:flex grid justify-center md:ml-[300px] ml-5 mr-5 md:mr-32 md:pr-44 py-8 rounded-lg bg-white md:gap-7 gap-3">
-                <img className="w-[350px] h-[378px] bg-[#F3F3F3] rounded-lg" src="" alt="#" />
-                <div>
+                <img className="md:w-[350px] h-[378px] w-full md:bg-[#F3F3F3] bg-red-100 rounded-lg" src="" alt="#" />
+                <div className="md:p-0 p-4">
                     <h2 className="text-[40px] font-bold text-[#0A0808]">Dr. Ruby Perrin</h2>
                     <p className="text-[18px] font-normal text-[#6C6B6B]">MBBS, MD - General Medicine</p>
                     <div className="flex text-xl gap-1 text-[#F2871D]">
@@ -137,14 +137,14 @@ const DoctorProfile = () => {
             <div role="tablist" className="tabs flex items-center ">
                 <button
                     role="tab"
-                    className={`tab ${activeTab === 1 ? 'tab-active' : ''} rounded-md bg-[#F7A582] py-[30px] px-16 text-[#3B3A3A] text-[18px] font-semibold`}
+                    className={`tab ${activeTab === 1 ? 'tab-active' : ''} rounded-md bg-[#F7A582] py-[30px] px-10 text-[#3B3A3A] text-[18px] font-semibold`}
                     onClick={() => setActiveTab(1)} style={{display: "inline-flex", justifyContent: "center", alignContent: "center"}} 
                 >
                     Overview
                 </button>
                 <button
                     role="tab"
-                    className={`tab ${activeTab === 2 ? 'tab-active' : ''} border-t-0 border-l-0 border-r-0 border-[2px] py-7 px-16 text-[#3B3A3A] text-[18px] font-semibold`}
+                    className={`tab ${activeTab === 2 ? 'tab-active' : ''} border-t-0 border-l-0 border-r-0 border-[2px] py-7 px-10 text-[#3B3A3A] text-[18px] font-semibold`}
                     onClick={() => setActiveTab(2)} style={{display: "inline-flex", justifyContent: "center", alignContent: "center"}}
                 >
                     Locations

@@ -15,8 +15,26 @@ const Appoinment = () => {
             <p className='text-[#F7A582] text-[20px] pt-20 font-normal text-center'>Available Services on April 30, 2022</p>
             <h3 className='text-[#3B3A3A] text-center text-[35px] font-bold'>Please select a service</h3>
 
+                {/* modal */}
+                <dialog id="my_modal_3" className="modal">
+                <div className="modal-box bg-white">
+                    <form method="dialog">
+                    {/* if there is a button in form, it will close the modal */}
+                    <button className="btn btn-sm btn-circle bg-[#07332F] absolute right-2 top-2">✕</button>
+                    </form>
+                    <h3 className="font-bold text-xl text-[#000000] pb-11">Cavity Protection</h3>
+                    <input className='bg-[#E6E6E6] py-3 pl-3 w-full mb-4 rounded-lg' type="date" name="date" id=""/> <br />
+                    <input className='bg-[#E6E6E6] py-3 pl-3 mb-4 w-full rounded-lg' type="time" name="time" id=""/>
+                    <input className='pl-3 py-3 w-full placeholder:text-base placeholder:font-normal placeholder:text-[#CFCFCF] mb-4 rounded-lg bg-white border' type="text" name="full-name" id="" placeholder='Full Name'/>
+                    <input className='pl-3 py-3 w-full placeholder:text-base placeholder:font-normal placeholder:text-[#CFCFCF] border mb-4 rounded-lg bg-white' type="number" name="phone-number" id="" placeholder='Phone Number'/>
+                    <input className='pl-3 py-3 w-full placeholder:text-base placeholder:font-normal placeholder:text-[#CFCFCF] rounded-lg border bg-white mb-4' type="email" name="email" id="" placeholder='Email'/>
+                    <input className='bg-[#07332F] text-base font-bold py-3 w-full rounded-lg cursor-pointer' type="submit" value="SUBMIT" />
+                </div>
+                </dialog>
+                {/* modal */}
+
             <div className='md:flex grid justify-center gap-4 pt-8'>
-                <div className='flex items-center rounded-lg w-[256px] bg-white border p-4 shadow-lg gap-4'>
+                <div onClick={()=>document.getElementById('my_modal_3').showModal()} className='flex items-center cursor-pointer rounded-lg w-[256px] bg-white border p-4 shadow-lg gap-4'>
                     <img className='bg-[#FF41551A] w-[70px] h-[70px] p-3 rounded-lg' src="https://i.postimg.cc/wBxzjzXX/006-broken-tooth.png" alt="#" />
                     <h2 className='text-[#3B3A3A] text-[22px] font-bold leading-6'>Teeth <br /> Orthodontics</h2>
                 </div>
@@ -47,7 +65,7 @@ const Appoinment = () => {
 
             <h2 className='text-[#3B3A3A] text-[40px] pb-7 font-bold text-center pt-20'>Available slots for Teeth Orthodontics.</h2>
 
-            <div className='grid md:grid-cols-3 md:mx-44 mx-20 gap-5'>
+            <div className='grid md:grid-cols-3 md:mx-44 mx-10 gap-5'>
                 <div className='bg-white py-14 rounded-lg shadow-lg'>
                     <img className='bg-[#01D0FB0D] w-24 h-24 p-5 rounded-full mx-auto' src="https://i.postimg.cc/W4V8JyZN/004-dental.png" alt="#" />
                     <h3 className='text-[#3B3A3A] text-center pt-4 text-[23px] font-bold'>Teeth Orthodontics</h3>
