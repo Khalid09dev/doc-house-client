@@ -3,7 +3,7 @@ import { VscCallOutgoing } from "react-icons/vsc";
 
 const ContactWithUs = () => {
     return (
-        <div className="bg-white">
+        <div className="bg-white md:pb-20 pb-10">
             <div className="md:flex justify-center rounded-lg md:mx-28 mx-4 bg-[#07332F] gap-6 md:py-20 py-10 md:px-20 px-10">
             <div>
                 <h1 className="text-[#FFFFFF] text-[35px] font-bold pb-3">Contact With Us</h1>
@@ -17,8 +17,8 @@ const ContactWithUs = () => {
                 <input className="bg-[#FFFFFF0D] pl-5 placeholder:text-white placeholder:font-normal placeholder:text-base py-3 rounded-lg" type="email" name="email" id="" placeholder="Email"/>
                 <input className="bg-[#FFFFFF0D] pl-5 placeholder:text-white placeholder:font-normal placeholder:text-base py-3 rounded-lg" type="number" name="number" id="" placeholder="Mobile Number"/>
                 <input className="bg-[#FFFFFF0D] pl-5 placeholder:text-white placeholder:font-normal placeholder:text-base py-3 rounded-lg" type="text" name="doctor-name" id="" placeholder="Doctor Name"/>
-                <input className="bg-[#FFFFFF0D] pl-5 placeholder:text-white placeholder:font-normal placeholder:text-base py-3 rounded-lg" type="date" name="date" id="" placeholder="Date"/>
-                <input className="bg-[#FFFFFF0D] pl-5 placeholder:text-white placeholder:font-normal placeholder:text-base py-3 rounded-lg" type="time" name="time" id="" placeholder="Time"/>
+                <input className="bg-[#FFFFFF0D] pl-5 placeholder:text-white placeholder:font-normal placeholder:text-base py-3 rounded-lg w-full" type="date" name="date" id="" placeholder="Date"/>
+                <input className="bg-[#FFFFFF0D] pl-5 placeholder:text-white placeholder:font-normal placeholder:text-base py-3 rounded-lg w-full" type="time" name="time" id="" placeholder="Time"/>
                 <input type="submit" value="Book Now" className="text-white bg-[#F7A582] col-span-2 text-xl font-semibold rounded-lg py-3"/>
             </form>
         </div>

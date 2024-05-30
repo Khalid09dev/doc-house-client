@@ -11,7 +11,7 @@ const ExpertDoctors = () => {
             <p className="text-[#3B3A3A] text-base font-normal text-center md:block hidden">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa <br /> quae ab illo inve ntore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
             <p className="text-[#3B3A3A] text-base font-normal text-center pt-3 px-4 md:hidden block">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inve ntore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
 
-            <div className="md:flex justify-center gap-6 pt-12"> 
+            <div className="md:flex grid justify-center gap-6 pt-12"> 
             <div className="border md:mx-0 mx-5 p-5 rounded-lg">
                 <img src="https://i.postimg.cc/qvxxsK6H/doc-1.png" alt="#" />
                 <h4 className="text-xl font-bold text-[#3B3A3A] pt-4">Karyen Anderson</h4>
