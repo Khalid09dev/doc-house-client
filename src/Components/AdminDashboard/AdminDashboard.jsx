@@ -98,7 +98,7 @@ const AdminDashboard = () => {
 
             <div className='flex gap-16 pt-10 justify-center'>
                 <div style={{width: '50%'}} className='p-10 bg-white rounded-lg'>
-                <ResponsiveContainer width="100%" height={200}>
+                <ResponsiveContainer width="100%" height={250}>
                     <h2 className='text-[#898989] text-xl font-bold pb-3'>Patient</h2>
                     <hr className='border-t-2 pb-20'/>
                 <AreaChart
