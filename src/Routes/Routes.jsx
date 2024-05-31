@@ -6,6 +6,7 @@ import SignIn from "../pages/SignIn/SignIn";
 import Home from '../pages/Home/Home';
 import DoctorProfile from "../pages/DoctorProfile/DoctorProfile";
 import Appoinment from "../pages/Appoinment/Appoinment";
+import MyAppoinment from "../pages/MyAppoinment/MyAppoinment";
 
 export const router = createBrowserRouter([
     {
@@ -32,6 +33,10 @@ export const router = createBrowserRouter([
         {
           path: '/appoinment',
           element: <Appoinment></Appoinment>
+        },
+        {
+          path: '/my-appoinment',
+          element: <MyAppoinment></MyAppoinment>
         }
       ]
     },
