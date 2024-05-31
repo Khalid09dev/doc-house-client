@@ -21,7 +21,7 @@ const MyAppoinment = () => {
 
                 <table className='mt-6'>
                     <thead>
-                        <tr className='text-[#000000] py-3 rounded-t-lg text-base font-bold bg-[#E6E6E6] flex md:mx-36 mx-7 md:gap-52 gap-10'>
+                        <tr className='text-[#000000] py-3 rounded-t-lg text-base font-bold bg-[#E6E6E6] flex md:mx-36 mx-3 md:gap-52 gap-10'>
                             <th></th>
                             <th>Name</th>
                             <th>Service</th>
@@ -29,7 +29,7 @@ const MyAppoinment = () => {
                         </tr>
                     </thead>
                     <tbody>
-                    <tr className='flex border text-[#000000] text-base font-normal items-center md:mx-36 mx-7 px-6 md:gap-40 gap-4 bg-white py-3'>
+                    <tr className='flex border text-[#000000] text-base font-normal items-center md:mx-36 mx-3 px-6 md:gap-40 gap-4 bg-white py-3'>
                         <th>1</th>
                         <td>John Doe</td>
                         <td>Teeth Orthodontics</td>
