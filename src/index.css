@@ -4,6 +4,7 @@
     font-family: 'Source Sans 3', sans-serif;
 }
 
+@import "keep-react/css";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
